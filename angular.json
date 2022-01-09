@@ -24,13 +24,22 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/images/1.png",
+              "src/assets/images/2.png",
+              "src/assets/images/3.png",
+              "src/assets/images/4.png",
+              "src/assets/images/5.png",
+              "src/assets/images/6.png",
+              "src/assets/images/7.png",
+              "src/assets/images/8.png",
+              "src/assets/images/9.png"
             ],
             "styles": [
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/scripts/script.js"
+              "src/assets/scripts/script.js",
+              "src/main.ts"
             ]
           },
           "configurations": {
@@ -38,13 +47,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "3mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "1mb",
+                  "maximumError": "2mb"
                 }
               ],
               "fileReplacements": [
@@ -53,7 +62,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "none"
             },
             "development": {
               "buildOptimizer": false,

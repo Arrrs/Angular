@@ -3,7 +3,7 @@
 <div class="container" [@changeWindow]="secondWind">
   <h2>Profile info</h2>
   <div id="img">
-    <img src="assets/images/1.png" alt="" />
+    <img src="angular/assets/images/1.png" alt="" />
   </div>
   <div class="user_info">
     <h3>
@@ -27,10 +27,10 @@
       </thead>
       <tbody>
         <tr *ngFor="let item of ident" [@slideInOut]>
-          <td><img src="assets/images/6.png" alt="" srcset="" /></td>
+          <td><img src="angular/assets/images/6.png" alt="" srcset="" /></td>
           <td>{{ item.item }}</td>
           <td (mouseup)="removeFromList(item)">
-            <img src="assets/images/4.png" alt="" />
+            <img src="angular/assets/images/4.png" alt="" />
           </td>
         </tr>
       </tbody>
@@ -51,11 +51,11 @@
 </div>
 <div class="succ" [@succ]="startSucc">
   <h2>Successful!</h2>
-  <img src="assets/images/2.png" alt="" />
+  <img src="angular/assets/images/2.png" alt="" />
 </div>
 <div class="succ" [@unSucc]="unSucc">
   <h3>Can`t be empty</h3>
-  <img src="assets/images/3.png" alt="" />
+  <img src="angular/assets/images/3.png" alt="" />
 </div>
 <div class="bg-wh" [@changeWindow]="mainWind">
   <h1>Sing in</h1>
@@ -76,10 +76,10 @@
   </button>
 </div>
 <div class="circle" [@loading]="load" [@changeWindow]="loadWind">
-  <img src="assets/images/5.png" alt="" />
+  <img src="angular/assets/images/5.png" alt="" />
 </div>
 <div class="ex">
-  <img src="assets/images/7.png" alt="" [@exAppear]="exit" (mouseup)="rel()" />
+  <img src="angular/assets/images/7.png" alt="" [@exAppear]="exit" (mouseup)="rel()" />
 </div>
 <div class="theme"><img src="{{darkIconSwitch}}" alt="" (mouseup)="darkLight()"/></div>
 

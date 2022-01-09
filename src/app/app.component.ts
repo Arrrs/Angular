@@ -132,8 +132,8 @@ export class AppComponent implements OnInit {
     {item: "ISO 64685", numb: 4}, 
     {item: "ISO 32090", numb: 5}
   ];
-  darkIcon1 = 'assets/images/8.png';
-  darkIcon2 = 'assets/images/9.jpg';
+  darkIcon1 = 'angular/assets/images/8.png';
+  darkIcon2 = 'angular/assets/images/9.jpg';
   darkIconSwitch = this.darkIcon1;
   startSucc = 'endSucc';
   unSucc = 'endUnSucc';
