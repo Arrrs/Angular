@@ -1,0 +1,105 @@
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].rules[0].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].rules[0].oneOf[1].use[2]!./src/styles.css ***!
+  \********************************************************************************************************************************************************************************************************/
+/* * {
+    font-family: Calibri;
+}
+.container {
+    width: 600px;
+    padding: 10px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(149, 149, 149, 0.096);
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.294);
+    margin: 40px auto;
+    text-align: center;
+}   
+.user_info p {
+    text-align: left;
+}
+table {
+    margin: auto;
+}
+td {
+    padding: 5px 20px;
+}
+.add {
+    width: 250px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: rgba(240, 230, 140, 0.39);
+    text-align: center;
+    padding: 5px 0px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(128, 128, 128, 0.294);
+    transition: box-shadow .2s;
+}
+
+.add:hover {
+    box-shadow: 0 0 10px rgba(114, 114, 114, 0.287), 0 0 4px rgba(54, 54, 54, 0.15);
+
+}
+.add input {
+    border: 0px;
+    box-shadow: 0 0 8px rgba(54, 54, 54, 0.294);
+    border-radius: 5px;
+    height: 20px;
+    width: 70%;
+    transition: box-shadow .2s;
+}
+.add input:hover {
+    box-shadow: 0 0 10px rgba(54, 54, 54, 0.452), 0 0 4px rgba(54, 54, 54, 0.479);
+
+}
+
+
+.but {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  outline: transparent;
+  padding: 4px 18px;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.but:focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.but:hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+.but:active {
+    transform: scale(0.98);
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(154, 81, 172, 0.548);
+    color: white;
+    font-size: 12px;
+}
+.close:hover {
+    cursor: pointer;
+} */
